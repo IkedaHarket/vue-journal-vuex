@@ -1,0 +1,38 @@
+$theme-colors: (
+  "primary":    #2C3E50,
+  "secondary":  #1D6042,
+  "success":    #198745,
+  "info":       #0DCAF0,
+  "warning":    #FFC107,
+  "danger":     #DC3545,
+  "light":      #F8F9FA,
+  "dark":       #343A40,
+);
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+.pointer{
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 1px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2c3e50;
+    border: 0px none #2c3e50;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #000000;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 0px none #2c3e50;
+    border-radius: 50px;
+  }
